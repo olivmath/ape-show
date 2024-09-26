@@ -24,7 +24,20 @@
 
 ## Setup
 
-- ApeWorkx with Vyper
+- ApeWorkx with Solidity and Vyper
+
+```
+python3 -m venv .venv
+source .venv/bin/activate
+
+pip3 install eth-ape
+pip3 install ape-solidity
+pip3 install ape-vyper
+```
+
+```
+ape run deploy --network ethereum:anvil:node
+```
 
 ## Development 15min
 
