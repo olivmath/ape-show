@@ -1,13 +1,17 @@
 from pytest import fixture
 
 @fixture
-def owner(accounts):
+def alice(accounts):
     return accounts[0]
 
 @fixture
-def another(accounts):
+def bob(accounts):
     return accounts[1]
 
 @fixture
-def flipper(project, owner):
-    return owner.deploy(project.Flipper)
+def flipper(project, alice):
+    return alice.deploy(project.Flipper)
+
+@fixture
+def flipper_v2(project, alice):
+    return alice.deploy(project.FlipperV2)

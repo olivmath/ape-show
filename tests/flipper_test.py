@@ -1,14 +1,11 @@
-def test_flipper_initial(flipper):
-    assert flipper.flip() == True
+def test_flipper_initial_state(flipper):
+    initial_state = flipper.getState()
+    assert initial_state == True
 
 
-def test_change_flip(flipper, another):
-    flipper.flipping(sender=another)
-    assert flipper.flip() == False
+def test_flipper_change_state_with_flip(flipper, alice):
+    assert flipper.getState() == True
 
-def test_get_fliped_event(flipper, another):
-    tx = flipper.flipping(sender=another)
-    event_list = tx.decode_logs(flipper.Fliped)
-    event = event_list[0].event_arguments
+    flipper.flip(sender=alice)
 
-    assert event == {"state": False}
+    assert flipper.getState() == False
