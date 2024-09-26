@@ -1,41 +1,40 @@
-# Introdução a Blockchain com Python
+# Introduction to Blockchain with Python
 
 ## Self intro 2min
 
-- Head de Educação
+- Head of Education
 - Floripa Web3
 - Ambassador OpenSense | Stellar
-- Eng. Blockchain
-- Matemático
+- Blockchain Engineer
+- Mathematician
 
-
-## Blockchain em 10min
+## Blockchain in 10min
 
 - Wallet
 - Tx
 - Block
-- Consenso
-- Smartcontracts
+- Consensus
+- Smart contracts
 
-## Smartcontracts em 10min
+## Smart contracts in 10min
 
-- EVM: Solidity e Vyper
-- ApeWorkx e Foundry
+- EVM: Solidity and Vyper
+- ApeWorkx and Foundry
 - Merkly
 
 ## Setup
 
-- ApeWorkx com Vyper
+- ApeWorkx with Vyper
 
-## Desenvolvimento 15min
+## Development 15min
 
-- Definindo projeto
-- Escrevendo smartcontract
-- Testando smartcontract
-- Deployando smartcontract
-- Interagindo com smartcontract
+- Defining the project
+- Writing smart contract
+- Testing smart contract
+- Deploying smart contract
+- Interacting with smart contract
 
-## Conclusão 3min
+## Conclusion 3min
 
-- Aprendizados e contribuição
-- Próximos passos
+- Learnings and contribution
+- Next steps
