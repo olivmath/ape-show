@@ -1,38 +1,33 @@
 # Introduction to Blockchain with Python
 
-## Self intro 2min
+## Quickstart Guide
 
-- Head of Education
-- Floripa Web3
-- Ambassador OpenSense | Stellar
-- Blockchain Engineer
-- Mathematician
+### Setup environment
 
-## Blockchain in 10min
-
-- Wallet
-- Tx
-- Block
-- Consensus
-- Smart contracts
-
-## Smart contracts in 10min
-
-- EVM: Solidity and Vyper
-- ApeWorkx and Foundry
-- Merkly
-
-## Setup
-
-- ApeWorkx with Solidity and Vyper
-
-```
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
+```bash
+poetry init
+poetry shell
+```
+
+### Install dependencies
+
+**Ape Worx**
+
+```bash
 pip3 install eth-ape
 pip3 install ape-solidity
 pip3 install ape-vyper
+```
+
+```bash
+poetry add eth-ape
+poetry add ape-solidity
+poetry add ape-vyper
 ```
 
 ```
