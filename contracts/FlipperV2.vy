@@ -1,5 +1,6 @@
 # @version ^0.3.7
 
+
 state: public(bool)
 
 @external
