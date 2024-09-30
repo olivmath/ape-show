@@ -34,7 +34,7 @@ poetry add ape-vyper
 ape run deploy --network ethereum:anvil:node
 ```
 
-## Development 15min
+## Development
 
 - Defining the project
 - Writing smart contract
@@ -42,7 +42,7 @@ ape run deploy --network ethereum:anvil:node
 - Deploying smart contract
 - Interacting with smart contract
 
-## Conclusion 3min
+## Conclusion
 
 - Learnings and contribution
 - Next steps
